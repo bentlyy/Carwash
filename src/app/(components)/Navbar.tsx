@@ -30,8 +30,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-black/70 backdrop-blur-md z-50 flex justify-center">
-      <ul className="flex gap-10 py-4 text-white font-medium tracking-wide">
+    <nav className="fixed top-0 left-0 w-full bg-black/70 backdrop-blur-md z-50 flex justify-center px-12">
+      <ul className="flex gap-6 md:gap-10 lg:gap-16 py-4 text-white font-medium tracking-wide">
         {sections.map((name) => (
           <li
             key={name}
